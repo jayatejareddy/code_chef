@@ -1,13 +1,20 @@
-# title-Usain Bolt vs Tiger
-# problem from ICPC Asia-Amritapuri Onsite Replay Contest 2019
+# title-Reverse
+# problem from IARCS OPC Judge Problems(IARCSJUD)
 # cook your dish here
-import math
+import string 
 t=int(input())
-for _ in range(t):
-    s,d,a,v=map(int,input().split())
-    t1=math.sqrt(2*(s+d)/a)
-    t2=s/v
-    if t2<t1:
-        print('Bolt')
-    else:
-        print('Tiger')
+rev=[]
+for i  in range(t):
+    s=input()
+    t=''
+    r=''
+    for j in s:
+        if not j in string.punctuation:
+            t+=j 
+    t=t.split()
+    for j in t[::-1]:
+        r+=j
+        r+=' '
+    rev.append(r)
+for i in rev[::-1]:
+    print(i)
