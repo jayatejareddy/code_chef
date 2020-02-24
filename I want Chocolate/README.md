@@ -6,16 +6,16 @@ Anushka has only a certain amount to spend, and she wants to maximize the number
 Given a list of prices and an amount to spend, what is the maximum number of chocolates Anushka can buy?
 
 **For example** ,</br>
-if prices =[1,2,3,4] and Anushka has k=7 to spend, she can buy items [1,2,3] for 6 , or [3,4] for 7 units of currency. she would choose the first group of 3 items.
+if prices =[1,2,3,4] and Anushka has ***k***=7 to spend, she can buy items [1,2,3] for 6 , or [3,4] for 7 units of currency. she would choose the first group of 3 items.
 
 **Input Format**</br>
-The first line contains two integers, n and k , the number of priced chocolates and the amount Anushka has to spend.
-The next line contains n space-separated integers prices[i]
+The first line contains two integers, ***n*** and ***k*** , the number of priced chocolates and the amount Anushka has to spend.
+The next line contains ***n*** space-separated integers ***prices[i]***
 
 **Constraints**</br>
-1<=n<=10<sup>5</sup></br>
-1<=k<=10<sup>9</sup></br>
-1<=prices[i]<=10<sup>9</sup></br>
+1<=***n***<=10<sup>5</sup></br>
+1<=***k***<=10<sup>9</sup></br>
+1<=***prices[i]***<=10<sup>9</sup></br>
 
 A chocolate can&#39;t be bought multiple times.
 
