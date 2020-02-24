@@ -1,13 +1,13 @@
-# title-Usain Bolt vs Tiger
-# problem from ICPC Asia-Amritapuri Onsite Replay Contest 2019
+# title-Be an Alien
+# problem from CodeMania 2020(COM12020)
 # cook your dish here
-import math
-t=int(input())
-for _ in range(t):
-    s,d,a,v=map(int,input().split())
-    t1=math.sqrt(2*(s+d)/a)
-    t2=s/v
-    if t2<t1:
-        print('Bolt')
-    else:
-        print('Tiger')
+lan=[]
+alien=[]
+for i in range(6):
+    r=input()
+    lan.append(r)
+for i in lan:
+    alien.append(i[::-1])
+alien=alien[::-1]
+for i in alien:
+    print(i)
