@@ -13,9 +13,9 @@ The first line contains two integers, n and k , the number of priced chocolates 
 The next line contains n space-separated integers prices[i]
 
 **Constraints**</br>
-1\&lt;= n \&lt;= 105
-1\&lt;= k \&lt;= 109
-1\&lt;= prices[i] \&lt;= 109
+1<=n<=10<sup>5</sup></br>
+1<=k<=10<sup>9</sup></br>
+1<=prices[i]<=10<sup>9</sup></br>
 
 A chocolate can&#39;t be bought multiple times.
 
@@ -23,8 +23,8 @@ A chocolate can&#39;t be bought multiple times.
 An integer that denotes the maximum number of chocolates Anushka can buy for her.
 
 **Sample Input**</br>
-7 50
-1 12 5 111 200 1000 10
+7 50</br>
+1 12 5 111 200 1000 10</br>
 
 **Sample Output**</br>
 4
