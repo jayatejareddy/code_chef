@@ -1,4 +1,4 @@
-# title-Reverse
+# title-Lead Game
 # problem from IARCS OPC Judge Problems(IARCSJUD)
 # cook your dish here
 r = int(input())
